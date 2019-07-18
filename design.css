@@ -1,0 +1,503 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+.main_menu
+{
+	width: 100%;
+	height: 700px;
+	background-image: url("1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	float: left;
+}
+.menu
+{
+	height: 70px;
+	width: 25%;
+	margin: 10px 100px 0px 0px; 
+	float: right;
+	background: black;
+	border-radius: 5px;
+	border: 1px solid #ac6d4b;
+}
+#img1
+{
+	border-radius: 5px;
+	margin: 10px auto auto 100px;
+}
+.nav
+{
+	display: inline;
+	text-align: center;
+	margin: 0px 0px 0px 5px;
+	padding: 10px;
+}
+.nav:hover
+{
+	text-decoration: underline;
+	color: #764d37;
+}
+.nav a
+{
+	text-decoration: none;
+	color: #764d37;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+}
+.showcase
+{
+	width: 100%;
+	height: 200px;
+	margin-top: 150px;
+}
+
+.showcase h3
+{
+	color: #ac6d4b;
+	margin-left: 50%;
+	font-family: Gabriola;
+	font-size: 30px;
+	width: 7%;
+}
+.showcase h1
+{
+	width: 740px;
+	color: #ac6d4b;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 48px;
+	margin-left: 25%;
+	border-top: 1px solid #ac6d4b;
+	border-bottom: 1px solid #ac6d4b;
+}
+.showcase p
+{
+	color: #ac6d4b;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	margin-left: 38%;
+	width: 33%;
+}
+#b1
+{
+	padding: 10px;
+	background-color: transparent;
+	border: 1px solid #ac6d4b;
+	border-radius: 5px;
+	color: #ac6d4b;
+	cursor: pointer;
+	margin-left: 48%;
+	font-family: Cambria;
+	font-size: 20px;
+}
+#b1:hover
+{
+	text-decoration: overline;
+	background-color: black;
+	border: 1px solid black;
+}
+.showcase h2
+{
+	width:35%;
+	color: #ac6d4b;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 35px;
+	margin-left: 35%;
+}
+input[name="subscribe"]
+{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 15px;
+	border: none;
+	padding: 5px;
+	height: 25px;
+	width: 20%;
+	color: white;
+	margin: 0px 0px 0px 35%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid black;
+}
+input[name="subscribe"]:focus
+{
+	border-left: 5px solid #ac6d4b;
+	border-bottom: 1px solid #ac6d4b;
+}
+#b6
+{
+	height: 39px;
+	padding: 5px;
+	font-family: Cambria;
+	font-size: 20px;
+	background-color: transparent;
+	border: 1px solid #ac6d4b;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ac6d4b;
+}
+#b6:hover, .login-box button:hover
+{
+	text-decoration: overline;
+	background-color: black;
+	color: #ac6d4b;
+	border: 1px solid black;
+}
+#img2
+{
+	float: left;
+	margin: 25px 0px 0px 15px;
+}
+.main_menu2
+{
+	width: 100%;
+	height: 700px;
+	background-image: url("2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	float: left;
+}
+.login-box
+{
+    float: left;
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid #764d37;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 25%;
+	height: 500px;
+	margin: 100px 0px 0px 40%;
+}
+.avatar
+{
+    width: 100px;
+    height: 100px;
+	border-radius: 50%;
+	margin: 5px 0px 0px 35%;
+}
+.login-box h1
+{
+	color: #764d37;
+    text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+.login-box label
+{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 17px;
+	font-weight: bold;
+	color: #764d37;
+	text-align: left;
+	margin: 0px 0px 0px 30px;
+}
+.login-box input
+{
+    width: 80%;
+    margin: 10px 0px 0px 30px;
+}
+.login-box input[type="text"], input [type="username"]
+{
+    border: none;
+	border-bottom: 1px solid #764d37;
+	border-left: 1px solid #764d37;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #764d37;
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+
+.login-box input[type="password"], input [type="password"]
+{
+    border: none;
+	border-bottom: 1px solid #764d37;
+	border-left: 1px solid #764d37;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #764d37;
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+.login-box button
+{
+	height: 40px;
+	width: 40%;
+	margin: 0px 0px 0px 20px;
+	font-family: Cambria;
+	font-size: 17px;
+	background-color: transparent;
+	border: 1px solid #ac6d4b;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ac6d4b;
+}
+.main_menu3
+{
+	width: 100%;
+	height: 700px;
+	background-image: url("3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	float: left;
+}
+.sec1
+{
+	float: left;
+	width: 50%;
+	height: 350px;
+	text-align: justify;
+}
+.sec2
+{
+	width: 50%;
+	height: 350px;
+	float: left;
+}
+.sec1
+{
+	background-color: #ac6d4b;
+	margin: 0px 0px 0px 0px;
+}
+.sec1 h2
+{
+	font-family: Consolas;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+	margin-left: 40%;
+}
+.sec1 p
+{
+	margin: 30px;
+	text-align: justify;
+	font-family: Cambria;
+	font-size: 15px;
+}
+#b2
+{
+	padding: 5px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	margin-left: 40%;
+	font-family: Cambria;
+	font-size: 17px;
+}
+#b2:hover
+{
+	text-decoration: overline;
+	background-color: black;
+	color: #ac6d4b;
+	border: 1px solid black;
+}
+.sec2
+{
+	background-image: url("2.jpg");
+	background-size: cover;
+}
+#b3
+{
+	padding: 10px;
+	font-family: Cambria;
+	font-size: 20px;
+	background-color: transparent;
+	margin: 25% 0px 0px 40%;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ac6d4b;
+}
+#b3:hover
+{
+	text-decoration: overline;
+	background-color: black;
+	color: #ac6d4b;
+	border: 1px solid black;
+}
+.sec3
+{
+	height: 350px;
+	width: 50%;
+}
+.sec4
+{
+	height: 550px;
+	width: 100%;
+	float: left;
+}
+#box1, #box2, #box3, #box4, #box5
+{
+	height: 230px;
+	width: 230px;
+	margin: 5% 0px 10px 33px;
+	float: left;
+}
+#box1:hover, #box2:hover, #box4:hover, #box5:hover
+{
+	border-radius: 50%;
+	transition-property: border-radius;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0.5ms;
+	transition-duration: 1s;
+}
+#box1
+{
+	background: url("box1.jpg");
+	background-size: cover;
+}
+#box1 h2, #box2 h2
+{
+	font-size: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin: 0px 0px 0px 25%;
+	padding-top: 35%;
+	color: #ac6d4b;
+	transform: scale(0);
+}
+#box1:hover h2, #box2:hover h2
+{
+	transform: scale(1) translate(15px,20px);
+	transform-origin: center;
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	color: black;
+}
+#box2
+{
+	background: url("box2.jpg");
+	background-size: cover;
+}
+#box3
+{
+	background: url("box3.jpg");
+	background-size: cover;
+	border-radius: 50%;
+}
+#box3 h2
+{
+	font-size: 40px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin: 0px 0px 0px 12%;
+	padding-top: 10%;
+	color: black;
+}
+#box4
+{
+	background: url("box4.jpg");
+	background-size: cover;
+}
+#box4 h2, #box5 h2
+{
+	font-size: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	margin: 0px 0px 0px 25%;
+	padding-top: 35%;
+	color: #ac6d4b;
+	transform: scale(0);
+}
+#box4:hover h2, #box5:hover h2
+{
+	transform: scale(1) translate(5px,10px);
+	transform-origin: center;
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	color: black;
+}
+#box5
+{
+	background: url("box5.jpg");
+	background-size: cover;
+}
+.sec4 h1
+{
+	margin: 100px 0px 0px 35%;
+	padding: 0px 0px 0px 0px;
+	color: black;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 40px;
+	float: left;
+}
+#b4
+{
+	padding: 10px;
+	font-family: Cambria;
+	font-size: 20px;
+	background-color: transparent;
+	margin: 20px 0px 0px 47%;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	color: black;
+}
+#b4:hover
+{
+	text-decoration: overline;
+	background-color: black;
+	color: #ac6d4b;
+	border: 1px solid black;
+}
+.sec5,.sec6
+{
+	height: 350px;
+	width: 50%;
+	float: left;
+}
+.sec5
+{
+	background-image: url("3.jpg");
+	background-size: cover;
+}
+#b5
+{
+	padding: 10px;
+	font-family: Cambria;
+	font-size: 20px;
+	background-color: transparent;
+	margin: 25% 0px 0px 40%;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ac6d4b;
+}
+#b5:hover
+{
+	text-decoration: overline;
+	background-color: black;
+	color: #ac6d4b;
+	border: 1px solid black;
+}
+.sec6
+{
+	background-color: #ac6d4b;
+}
+.sec6 address
+{
+	text-align: justify;
+	font-family: Cambria;
+	font-size: 15px;
+	margin: 0px 0px 0px 35%;
+}
+.sec6 p
+{
+	text-align: justify;
+	font-family: Cambria;
+	font-size: 15px;
+	margin: 0px 0px 0px 35%;
+}
+footer
+{
+	height: 50px;
+	width: 100%;
+	background-color: #764d37;
+	float: left;
+	text-align: center;
+	font-family: Cambria;
+}
